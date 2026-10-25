@@ -17,6 +17,16 @@ CONFIG_PACKAGE_firewall4=y
 CONFIG_PACKAGE_kmod-nf-ipt=n
 CONFIG_PACKAGE_iptables=n
 
+CONFIG_PACKAGE_luci-app-dockerman=y
+CONFIG_PACKAGE_luci-app-hd-idle=y
+CONFIG_PACKAGE_luci-app-aria2=y
+
+CONFIG_PACKAGE_msmtp=y
+CONFIG_PACKAGE_luci-app-vsftpd=y
+
+CONFIG_PACKAGE_python3=y
+CONFIG_PACKAGE_python3-requests=y
+
 #删除插件
 CONFIG_PACKAGE_luci-app-attendedsysupgrade=n
 CONFIG_PACKAGE_luci-app-wol=n
