@@ -176,7 +176,8 @@ CONFIG_PACKAGE_luci-app-hd-idle=y
 CONFIG_PACKAGE_luci-app-aria2=y
 
 CONFIG_PACKAGE_msmtp=y
-CONFIG_PACKAGE_luci-app-vsftpd=y
+#CONFIG_PACKAGE_luci-app-vsftpd=y
 
 CONFIG_PACKAGE_python3=y
 CONFIG_PACKAGE_python3-requests=y
+CONFIG_PACKAGE_etherwake=y
